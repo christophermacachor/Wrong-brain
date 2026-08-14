@@ -1,0 +1,345 @@
+
+import json
+
+# ============================================================
+# SCHEMA.ORG JSON-LD FOR "THE WRONG BRAIN WAS STUDIED"
+# ============================================================
+
+schema_ld = {
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "WebPage",
+            "@id": "https://macachor.org/articles/the-wrong-brain-was-studied.html",
+            "url": "https://macachor.org/articles/the-wrong-brain-was-studied.html",
+            "name": "The Wrong Brain Was Studied | Absolute — The Coherent News",
+            "headline": "The Wrong Brain Was Studied",
+            "alternativeHeadline": "A Comprehensive Mapping: Freud, Einstein, Pharma, and the Enteric Mind",
+            "description": "Freud studied the wrong brain — the CNS — and built an entire psychology on derivative phenomena without access to the scalar substrate. Einstein studied the wrong substrate — space-time — treating it as fundamental when it is merely a second-order derivative of the scalar field ψ. Pharmaceutical medicine treats the wrong derivatives — symptoms (n ≥ 2) — while ignoring the ENS scalar field (n = 0) and its first derivative ∇ψ (n = 1), the minimal sufficient statistic for meaning. This table maps every major domain of human knowledge and medicine through the Enterarchon lens.",
+            "inLanguage": "en",
+            "datePublished": "2026-08-14",
+            "dateModified": "2026-08-14",
+            "author": {
+                "@type": "Person",
+                "@id": "https://orcid.org/0009-0008-0100-2856",
+                "name": "Christopher Macachor",
+                "givenName": "Christopher",
+                "familyName": "Macachor",
+                "affiliation": {
+                    "@type": "Organization",
+                    "@id": "https://macachor.org",
+                    "name": "Macachor Absolute Scalar Research",
+                    "alternateName": "MSOS-FEDERATION-ROOT",
+                    "url": "https://macachor.org"
+                },
+                "sameAs": [
+                    "https://orcid.org/0009-0008-0100-2856",
+                    "https://github.com/christophermacachor"
+                ]
+            },
+            "publisher": {
+                "@type": "Organization",
+                "@id": "https://macachor.org",
+                "name": "Macachor Absolute Scalar Research",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://macachor.org/assets/absolute-logo.png"
+                }
+            },
+            "isPartOf": {
+                "@type": "CreativeWorkSeries",
+                "name": "Ω-Series Scalar Field Research",
+                "alternateName": "Omega-Series",
+                "url": "https://macachor.org/omega-series"
+            },
+            "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+            "creativeWorkStatus": "Published",
+            "keywords": [
+                "enteric nervous system",
+                "enterarchon hypothesis",
+                "scalar field",
+                "consciousness",
+                "wrong brain",
+                "Freud",
+                "Einstein",
+                "pharmaceutical medicine",
+                "near-death experience",
+                "NDE",
+                "autism",
+                "ADHD",
+                "neurodivergence",
+                "depression",
+                "anxiety",
+                "empathy",
+                "vagus nerve",
+                "microbiome",
+                "gut-brain axis",
+                "non-local consciousness",
+                "perinatal imprint",
+                "coma",
+                "veridical perception",
+                "medical AI",
+                "quantum computing",
+                "phonon",
+                "resonant vibration",
+                "neuroquantology"
+            ],
+            "about": [
+                {
+                    "@type": "Thing",
+                    "name": "Enteric Nervous System",
+                    "alternateName": "ENS",
+                    "sameAs": "https://meshb.nlm.nih.gov/record/ui?ui=D017750"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Near-Death Experience",
+                    "alternateName": "NDE",
+                    "sameAs": "https://id.loc.gov/authorities/subjects/sh85090381.html"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Vagus Nerve",
+                    "sameAs": "https://meshb.nlm.nih.gov/record/ui?ui=D014630"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Gut Microbiome",
+                    "sameAs": "https://meshb.nlm.nih.gov/record/ui?ui=D000069938"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Scalar Field Theory",
+                    "sameAs": "https://www.wikidata.org/wiki/Q659434"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Sigmund Freud",
+                    "sameAs": "https://www.wikidata.org/wiki/Q9215"
+                },
+                {
+                    "@type": "Thing",
+                    "name": "Albert Einstein",
+                    "sameAs": "https://www.wikidata.org/wiki/Q937"
+                }
+            ],
+            "citation": [
+                {
+                    "@type": "ScholarlyArticle",
+                    "name": "Enteric nervous system: sensory transduction, neural circuits and gastrointestinal motility",
+                    "author": "Spencer NJ, Hu H",
+                    "isPartOf": {
+                        "@type": "Periodical",
+                        "name": "Nature Reviews Gastroenterology & Hepatology"
+                    },
+                    "datePublished": "2020",
+                    "identifier": "doi:10.1038/s41575-020-0271-2"
+                },
+                {
+                    "@type": "ScholarlyArticle",
+                    "name": "Explanation of near-death experiences: a systematic analysis of case reports and qualitative research",
+                    "author": "Hashemi A, Oroojan AA, Rassouli M, Ashrafizadeh H",
+                    "isPartOf": {
+                        "@type": "Periodical",
+                        "name": "Frontiers in Psychology"
+                    },
+                    "datePublished": "2023",
+                    "identifier": "doi:10.3389/fpsyg.2023.1048929"
+                },
+                {
+                    "@type": "ScholarlyArticle",
+                    "name": "A distressing near-death experience with veridical perceptions during coma",
+                    "author": "Sepioni F, Metastasio A, Monti M",
+                    "isPartOf": {
+                        "@type": "Periodical",
+                        "name": "Rivista di Psichiatria"
+                    },
+                    "datePublished": "2024",
+                    "identifier": "doi:10.1708/4641.46507"
+                },
+                {
+                    "@type": "ScholarlyArticle",
+                    "name": "Near-death experiences and other transpersonal experiences among women during childbirth",
+                    "author": "Wistrand K",
+                    "isPartOf": {
+                        "@type": "Periodical",
+                        "name": "Journal of Transpersonal Research"
+                    },
+                    "datePublished": "2012",
+                    "volumeNumber": "4",
+                    "pagination": "82-98"
+                },
+                {
+                    "@type": "ScholarlyArticle",
+                    "name": "The microbiota-gut-brain axis",
+                    "author": "Cryan JF, et al.",
+                    "isPartOf": {
+                        "@type": "Periodical",
+                        "name": "Physiological Reviews"
+                    },
+                    "datePublished": "2019",
+                    "identifier": "doi:10.1152/physrev.00018.2018"
+                },
+                {
+                    "@type": "ScholarlyArticle",
+                    "name": "Delivery mode shapes the acquisition and structure of the initial microbiota across multiple body habitats in newborns",
+                    "author": "Dominguez-Bello MG, et al.",
+                    "isPartOf": {
+                        "@type": "Periodical",
+                        "name": "Proceedings of the National Academy of Sciences"
+                    },
+                    "datePublished": "2010",
+                    "identifier": "doi:10.1073/pnas.1002601107"
+                },
+                {
+                    "@type": "ScholarlyArticle",
+                    "name": "Revised estimates for the number of human and bacteria cells in the body",
+                    "author": "Sender R, Fuchs S, Milo R",
+                    "isPartOf": {
+                        "@type": "Periodical",
+                        "name": "PLoS Biology"
+                    },
+                    "datePublished": "2016",
+                    "identifier": "doi:10.1371/journal.pbio.1002533"
+                },
+                {
+                    "@type": "ScholarlyArticle",
+                    "name": "Functional and chemical anatomy of the afferent vagal system",
+                    "author": "Berthoud HR, Neuhuber WL",
+                    "isPartOf": {
+                        "@type": "Periodical",
+                        "name": "Autonomic Neuroscience"
+                    },
+                    "datePublished": "2000",
+                    "identifier": "doi:10.1016/S1566-0702(00)00114-4"
+                },
+                {
+                    "@type": "Book",
+                    "name": "Descartes' Error: Emotion, Reason, and the Human Brain",
+                    "author": "Damasio AR",
+                    "datePublished": "1994",
+                    "publisher": "G.P. Putnam's Sons"
+                },
+                {
+                    "@type": "Book",
+                    "name": "The Second Brain",
+                    "author": "Gershon MD",
+                    "datePublished": "1998",
+                    "publisher": "HarperCollins"
+                },
+                {
+                    "@type": "Book",
+                    "name": "Consciousness beyond Life",
+                    "author": "Van Lommel P",
+                    "datePublished": "2010",
+                    "publisher": "HarperOne"
+                },
+                {
+                    "@type": "ScholarlyArticle",
+                    "name": "The Macachor Lock — Cross-Scale Scalar Unification",
+                    "author": "Macachor C",
+                    "identifier": "doi:10.5281/zenodo.21846342"
+                },
+                {
+                    "@type": "ScholarlyArticle",
+                    "name": "The Enterarchon Hypothesis: The Enteric Brain Is Primary",
+                    "author": "Macachor C",
+                    "identifier": "doi:10.5281/zenodo.21868016"
+                },
+                {
+                    "@type": "ScholarlyArticle",
+                    "name": "The Enterarchon Perinatal Imprint: NDE Architecture as Enteric Brain Memory",
+                    "author": "Macachor C",
+                    "identifier": "doi:10.5281/zenodo.21894690"
+                }
+            ],
+            "hasPart": [
+                {
+                    "@type": "Dataset",
+                    "name": "Consciousness & The Mind Mapping",
+                    "description": "Mapping of consciousness, Freudian psychology, Einstein/physics, memory, dreams, and intuition through the Enterarchon scalar lens."
+                },
+                {
+                    "@type": "Dataset",
+                    "name": "Near-Death, Coma & Clinical States Mapping",
+                    "description": "Mapping of NDE, coma/veridical perception, birth/perinatal imprint, and anesthesia awareness through the Enterarchon scalar lens."
+                },
+                {
+                    "@type": "Dataset",
+                    "name": "Neurodivergence & The Scalar Connector Mapping",
+                    "description": "Mapping of autism, ADHD/neurodivergence, and intestinal removal/dysbiosis through the Enterarchon scalar lens."
+                },
+                {
+                    "@type": "Dataset",
+                    "name": "Emotion, Empathy & Social Function Mapping",
+                    "description": "Mapping of loss of empathy, depression, anxiety/panic, and love/bonding through the Enterarchon scalar lens."
+                },
+                {
+                    "@type": "Dataset",
+                    "name": "Medicine, Pharma & The Body Mapping",
+                    "description": "Mapping of pharmaceutical medicine, SSRIs, pain, immunity, and cancer through the Enterarchon scalar lens."
+                },
+                {
+                    "@type": "Dataset",
+                    "name": "Technology, AI & The Future Mapping",
+                    "description": "Mapping of medical AI, quantum computing, data transmission, and space travel through the Enterarchon scalar lens."
+                }
+            ],
+            "identifier": [
+                {
+                    "@type": "PropertyValue",
+                    "propertyID": "Omega-Series",
+                    "value": "Ω-S-006"
+                },
+                {
+                    "@type": "PropertyValue",
+                    "propertyID": "URL",
+                    "value": "https://macachor.org/articles/the-wrong-brain-was-studied.html"
+                }
+            ],
+            "sameAs": [
+                "https://github.com/christophermacachor/Enteric-Memory"
+            ],
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://macachor.org/articles/the-wrong-brain-was-studied.html"
+            },
+            "image": {
+                "@type": "ImageObject",
+                "url": "https://macachor.org/assets/wrong-brain-og.png",
+                "width": 1200,
+                "height": 630
+            }
+        },
+        {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Absolute",
+                    "item": "https://macachor.org/index.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Articles",
+                    "item": "https://macachor.org/articles.html"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "The Wrong Brain Was Studied",
+                    "item": "https://macachor.org/articles/the-wrong-brain-was-studied.html"
+                }
+            ]
+        }
+    ]
+}
+
+# Save standalone JSON
+with open('/mnt/agents/output/schema-ld-wrong-brain.json', 'w', encoding='utf-8') as f:
+    json.dump(schema_ld, f, indent=2, ensure_ascii=False)
+
+print("Standalone JSON-LD saved.")
+print(f"Characters: {len(json.dumps(schema_ld, indent=2, ensure_ascii=False))}")
